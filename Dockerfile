@@ -1,7 +1,7 @@
 #
 # Dockerfile to build a DShield SSH Honeypot container
 #
-# 2016/03/14 - First release
+
 # 
 # Docker creation:
 # docker build -t dshield/honeypot .
@@ -31,7 +31,7 @@ RUN \
 # Clone the DShield software
 RUN \
   cd /root && \
-  git clone https://github.com/DShield-ISC/dshield.git
+  git clone https://github.com/Himangshu30/Cloud-Dsheild-docker
 
 # Install Cowrie
 RUN pip install python-dateutil
