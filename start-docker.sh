@@ -1,10 +1,6 @@
 #!/bin/sh
 #
 # Start the docker instance with the user API key to report to DShield.
-# Based on https://github.com/DShield-ISC/dshield/blob/master/bin/install.sh
-#
-# 2016/03/14 Created
-#
 
 echo "Validating provided credentials..."
 cd /root/dshield
